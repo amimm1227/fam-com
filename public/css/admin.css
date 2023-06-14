@@ -1,0 +1,259 @@
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.background{
+	background-color: #fbf4c5;
+}
+
+.header {
+	
+}
+
+.header-inner {
+	background-color: #f04b8d;
+	width: 510px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.header-inner img{
+	height: 100%;
+}
+
+.header-left{
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+	float: left;
+}
+
+/*.header-right{*/
+/*	width: 70px;*/
+/*	height: 70px;*/
+/*	margin: 5px;*/
+/*	float: right;*/
+/*}*/
+
+.header-right{
+	float: right;
+	color: #fff;
+	border:1px solid #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 20px 5px;
+}
+
+.header-right form{
+	display: block;
+}
+
+.header-right form:hover{
+	opacity: 0.8;
+}
+
+.content{
+	clear: both;
+	width: 510px;
+	height: auto;
+	background-color: #FFF;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.news-area {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #f4a3a3;
+}
+
+.news-area a{
+	display: block;
+	text-decoration: none;
+}
+
+.newspost-button {
+	width: 40px;
+	height: 40px;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #04ccc3;
+	border-radius: 30px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top:-35px;
+	left: 90%;
+	margin-bottom: -40px;
+}
+
+.news-post {
+	padding: 10px;
+	border-bottom: 1px solid #f4a3a3;
+}
+
+.news-post:last-child {
+	border-bottom: none;
+}
+
+.news-comment {
+	line-height: 1.5em;
+	margin-bottom: 5px;
+}
+
+.news-username {
+	font-size: 85%;
+	text-align: right;
+	font-weight: 500;
+}
+
+h1{
+	font-size: 18pt;
+	color: #f04b8d;
+}
+
+table {
+	width: 490px;
+	margin: 10px;
+	border: 1px solid #f4a3a3;
+	border-collapse: collapse;
+}
+
+table th{
+	border: 1px solid #f4a3a3;
+	width: 10%;
+}
+
+table td{
+	border: 1px solid #f4a3a3;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.calendar-area h1{
+	margin-left:20px;
+}
+
+.calendar-user {
+	width: 20%;
+	font-size: 11pt;
+}
+
+.holiday,.outing,.plan{
+	width: 90%;
+	text-align: center;
+	font-size: 10pt;
+	color: #FFF;
+	border-radius: 3px;
+	padding: 3px;
+	margin: 3px;
+	background-color: #f04b8d;
+}
+
+.holiday {
+	
+}
+
+.footer {
+	width: 510px;
+	height:20px;
+	background-color: #f04b8d;
+	margin: 0 auto;
+	color: #FFF;
+	font-size: 10pt;
+	text-align: center;
+}
+
+.news_form {
+	margin-top: 10px;
+}
+
+.news_form textarea {
+	width: 500px;
+	border:solid 1px #5e5e5e;
+	margin: 10px 5px;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+.news_form input {
+	width: 500px;
+	height: 40px;
+	margin: 0 5px;
+	background-color: #04ccc3;
+	border-radius: 6px;
+	font-size: 16pt;
+	color: #FFF;
+}
+
+.news_form input:hover{
+	opacity: 0.8;
+}
+
+.news_form p{
+	margin: 0 5px 10px 5px;
+	text-align: right;
+} 
+
+.shoppinglist h1 {
+	/*margin-left: 10px;*/
+	text-align: center;
+	margin-top: 20px;
+}
+
+.shoppinglist form{
+	margin: 10px;
+}
+
+.shoppinglist form input{
+	border:solid 1px #f04b8d;
+	color: #f04b8d;
+	padding:3px;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+
+.shoppinglist label{
+	color: #f04b8d;
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+.product_name {
+	float: left;
+}
+
+.prd_record button {
+	clear: left;
+	font-weight: 600;
+	color: #FFF;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background-color: #04ccc3;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.prd_record button:hover{
+	opacity: 0.8;
+}
+
+.check_btn button{
+	color: #04ccc3;
+	font-weight: 600;
+	border-bottom: 1px solid;
+}
+
+.check_btn button:hover{
+	opacity: 0.8;
+}
